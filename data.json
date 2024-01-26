@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "properties": {
+      "content": "explicit",
+      "additionalProp1": ["string"],
+      "additionalProp2": ["string"],
+      "additionalProp3": ["string"]
+    },
+    "id": "75623239",
+    "version": "Kill Jay Z",
+    "duration": 30,
+    "album": {
+      "id": "75413011",
+      "title": "4:44",
+      "imageCover": [
+        {
+          "url": "https://resources.tidal.com/images/717dfdae/beb0/4aea/a553/a70064c30386/80x80.jpg",
+          "width": 80,
+          "height": 80
+        }
+      ],
+      "videoCover": [
+        {
+          "url": "https://resources.tidal.com/images/717dfdae/beb0/4aea/a553/a70064c30386/80x80.jpg",
+          "width": 80,
+          "height": 80
+        }
+      ]
+    },
+    "title": "Kill Jay Z",
+    "isrc": "TIDAL2274",
+    "trackNumber": 30,
+    "volumeNumber": 30,
+    "copyright": "(p)(c) 2017 S. CARTER ENTERPRISES, LLC. MARKETED BY ROC NATION & DISTRIBUTED BY ROC NATION/UMG RECORDINGS INC.",
+    "artists": [
+      {
+        "id": "7804",
+        "name": "JAY Z",
+        "picture": [
+          {
+            "url": "https://resources.tidal.com/images/717dfdae/beb0/4aea/a553/a70064c30386/80x80.jpg",
+            "width": 80,
+            "height": 80
+          }
+        ],
+        "main": true
+      }
+    ],
+    "tidalUrl": "https://tidal.com/browse/track/251380837",
+    "artifactType": "string",
+    "mediaMetadata": {
+      "tags": "HIRES_LOSSLESS"
+    }
+  }
+}
