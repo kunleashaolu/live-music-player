@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
 *,
 *::after,
 *::before {
@@ -7,5 +9,63 @@
 }
 
 body {
-  background-color: #212529;
+  height: 100svh;
+  background-color: #0d0f12;
+  font-family: 'Work Sans', sans-serif;
+  color: #ffffff;
+}
+
+main {
+  display: grid;
+  align-items: center;
+  height: 100svh;
+
+  .container {
+    grid-area: 1/1;
+    margin: auto;
+    display: grid;
+    align-items: center;
+  }
+
+  .overlay {
+    z-index: 2;
+    grid-area: 1/1;
+    height: 100svh;
+    text-align: right;
+    padding: 2em;
+    font-size: 0.85rem;
+    cursor: pointer;
+    line-height: 1.6;
+  }
+}
+
+.container--player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5em;
+
+  span {
+    line-height: 1.5;
+  }
+}
+
+.cover--wrapper {
+  display: grid;
+
+  img {
+    grid-area: 1/1;
+    z-index: 1;
+    width: 270px;
+    height: 250px;
+    border-radius: 16px;
+    justify-self: center;
+  }
+}
+
+.canvas {
+  grid-area: 1/1;
+  height: 250px;
+  width: 100vw;
 }

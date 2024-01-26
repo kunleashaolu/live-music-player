@@ -6,12 +6,22 @@
   </head>
   <body>
     <main>
-      <div class="container--player">
-        <div class="cover--wrapper">
-          <img id="cover_img" class="cover--img" />
+      <div id="overlay" class="overlay">
+        <p>Click anywhere to play/pause</p>
+        <p>Double click to skip</p>
+      </div>
+      <div class="container">
+        <div class="container--player">
+          <div class="cover--wrapper">
+            <img id="cover_img" src="./res/astroworld.jpg" class="cover--img" />
+            <canvas id="oscilloscope" class="canvas" />
+          </div>
+          <span>
+            <h3 id="song_title" class="song--title">Stop Trying To Be God</h3>
+            <p id="song_artist" class="song--artist">Travis Scott</p>
+          </span>
+          <audio src="./songs/travis-scott-stop-trying-to-be-god.mp3" id="audio_element" class="song--audio"></audio>
         </div>
-        <h1 id="song_title" class="song--title"></h1>
-        <audio controls id="audio_element" class="song--audio" src="https://tidal.com/browse/track/251380837"></audio>
       </div>
     </main>
     <script type="module" src="./script.js"></script>
