@@ -31,8 +31,8 @@ export const data = [
   },
   {
     artist: 'Skepta',
-    title: 'Greeze Mode',
-    song: './songs/skepta-greeze-mode.mp3',
+    title: 'Greaze Mode',
+    song: './songs/skepta-greaze-mode.mp3',
     cover: './res/ignorance_is_bliss.png',
   },
   {
@@ -133,19 +133,19 @@ export const data = [
   },
   {
     artist: 'Kendrick Lamar',
-    title: 'Money Trees',
-    song: './songs/kendrick-lamar-money-trees.mp3',
-    cover: './res/goodkid_maad_city.jpg',
-  },
-  {
-    artist: 'Kendrick Lamar',
     title: 'PRIDE',
     song: './songs/kendrick-lamar-pride.mp3',
     cover: './res/damn.jpg',
   },
   {
     artist: 'Kendrick Lamar',
-    title: 'Sing About Me/Dying Of Thirst',
+    title: 'Money Trees',
+    song: './songs/kendrick-lamar-money-trees.mp3',
+    cover: './res/goodkid_maad_city.jpg',
+  },
+  {
+    artist: 'Kendrick Lamar',
+    title: "Sing About Me, I'm Dying Of Thirst",
     song: './songs/kendrick-lamar-sing-about-me.mp3',
     cover: './res/goodkid_maad_city.jpg',
   },
@@ -183,6 +183,6 @@ export const data = [
     artist: 'The Weeknd',
     title: 'Call Out My Name',
     song: './songs/theweeknd-call-out-my-name.mp3',
-    cover: './res/my_dear-melancholy.jpg',
+    cover: './res/my_dear_melancholy.jpg',
   },
 ]

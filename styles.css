@@ -34,7 +34,6 @@ main {
     text-align: right;
     padding: 2em;
     font-size: 0.85rem;
-    cursor: pointer;
     line-height: 1.6;
   }
 }
@@ -59,7 +58,7 @@ main {
     z-index: 1;
     width: 270px;
     height: 250px;
-    border-radius: 16px;
+    border-radius: 12px;
     justify-self: center;
   }
 }
